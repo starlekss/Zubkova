@@ -37,7 +37,16 @@
    
 ![image](https://github.com/user-attachments/assets/1a212480-639d-4f8a-8ea1-6a4999b0c8d4)
 
-7. 
+После выполнения следующей команды, исполняемый файл Docker Compose будет доступен для запуска.
+
+7. sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
+
+![image](https://github.com/user-attachments/assets/0259be5a-f105-455d-9444-41c3f37684c2)
+
+
+
+
+8. 
 
 
 
