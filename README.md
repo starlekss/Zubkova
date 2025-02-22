@@ -95,6 +95,9 @@
 Эта команда использует docker compose для запуска и управления приложением, определенным в файле ***docker-compose.yaml***. Она позволяет легко разворачивать и управлять сложными Docker-приложениями
 
 18. `sudo docker compose up -d`
+**-d** - Параметр -d в команде docker-compose up означает демонизирование процесса — запуск контейнеров в фоновом режиме.
 
 ![image](https://github.com/user-attachments/assets/735ac101-8d4c-43ec-99cf-091147f47beb)
 ![image](https://github.com/user-attachments/assets/37878b46-eede-4aea-add4-7f3c6ff73197)
+
+
