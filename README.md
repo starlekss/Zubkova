@@ -101,4 +101,56 @@
 ![image](https://github.com/user-attachments/assets/735ac101-8d4c-43ec-99cf-091147f47beb)
 ![image](https://github.com/user-attachments/assets/37878b46-eede-4aea-add4-7f3c6ff73197)
 
+19. `sudo docker compose stop`
+
+Команда останавливает запущенные контейнеры без их удаления.
+
+![image](https://github.com/user-attachments/assets/c86312bd-af46-4596-b030-66f4ee054682)
+
+20. `sudo docker compose down`
+
+Используемая команда для остановки и удаления контейнеров, сетей и томов, определенных в файле docker-compose.yml.
+
+![image](https://github.com/user-attachments/assets/b04e92d1-7da7-4958-b2bc-29b88051b5a2)
+
+21. `sudo docker compose ps`
+    
+Команда показывает информацию о контейнерах, управляемых Docker Compose, определенных в файле docker-compose.yml.
+
+![image](https://github.com/user-attachments/assets/ab2365b4-43da-4bf1-88ef-c5bb73eb15da)
+
+22. `pwd`
+
+Команда выводит на экран абсолютный путь к текущей рабочей директории.
+
+![image](https://github.com/user-attachments/assets/ded45dca-3500-4329-b36d-1cb4416ef451)
+
+23. `sudo git clone https://github.com/starlekss/Zubkova`
+
+При помощи этой команды происходит комирование репрозитория с Github.
+
+![image](https://github.com/user-attachments/assets/5c1bf1f1-29e1-409b-a4c9-96c7d291ea62)
+
+Также была использована команда `ls` для просмотра файлов в папке.
+
+24. `sudo vi docker-compose.yaml`
+    
+Команда предназначена для открытия или создания файла docker-compose.yaml в текстовом редакторе vi с правами суперпользователя (root).
+
+![image](https://github.com/user-attachments/assets/b8b300af-678e-4529-be4f-084640514473)
+![image](https://github.com/user-attachments/assets/f6ebf3bb-26bb-4ff4-819e-3c4813c6b747)
+
+25. `sudo vi prometeus.yaml`
+    
+Команда также используется для открытия или создания файла с именем prometheus.yaml в текстовом редакторе vi с правами суперпользователя (root).
+
+![image](https://github.com/user-attachments/assets/681bccc8-0e1c-466f-90e0-35af7edaa3ef)
+![image](https://github.com/user-attachments/assets/eaa94ac6-54c7-48ea-be47-7ca3079f148f)
+
+
+
+
+
+
+
 
