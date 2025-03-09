@@ -149,29 +149,7 @@
 
 
 
-global: 
-scrape_interval: 15s 
-scrape_configs: 
-#node exporter (https://github.com/prometheus/node_exporter) 
-job_name: 'node' 
-static_configs: 
-targets: ['exporer:9100', '192.168.100.4:9100', '192.168.100.6:9100'] # change 192.168.100.x to your nodes IPS 
-basic_auth: 
-username: 'admin' # change 
-password: 'admin' #change # or use password_file instead (docker secrets) 
-# password_file: '/run/secrets/node_exporter_password' 
-#docker daemon (https://docs.docker.com/config/daemon/prometheus/) 
-job_name: 'docker' 
-static_configs: 
-- targets: ['192.168.100.2:9323', '192.168.100.4:9323', '192.168.100.6:9323'] # change 192.168.100.x to your nodes IP 
-#pushgateway 
-job_name: 'pushgateway' 
-honor labels: true 
-static_configs: 
-targets: ['pushgateway: 9091'] 
-basic_auth: 
-username: 'admin' # change 
-password: 'admin #change # or use password_file instead (docker secrets) 
+
 
 
 
