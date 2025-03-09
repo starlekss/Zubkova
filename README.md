@@ -147,12 +147,34 @@
 ![image](https://github.com/user-attachments/assets/681bccc8-0e1c-466f-90e0-35af7edaa3ef)
 ![image](https://github.com/user-attachments/assets/eaa94ac6-54c7-48ea-be47-7ca3079f148f)
 
+# Grafana
 
+Сайт: localhost:3000 
+User & Password: admin
 
+Зайдя на сайт выбирается Dashboards для создания Dashboard
 
-sudo mv prometeus.yaml /mnt/common_volume/swarm/grafana/config/
+![image](https://github.com/user-attachments/assets/8bfe99f0-8f37-4d6a-95c7-9de146e6915b)
 
+Следующий шаг: +Add visualization, после Configure a new data source и выбирается Prometheus
 
+![image](https://github.com/user-attachments/assets/564bdfb5-09b3-47b1-9fec-06d3a96b6629)
+
+Настройка: 
+Connection: `http://prometheus:9090`
+Authentication: `Basic authentication`
+
+В завершении `Save & test`
+
+![image](https://github.com/user-attachments/assets/45066f6a-7e4e-4f36-b26b-bfdf38a6b659)
+
+Далее, при помощи `Import dashboard` созданный Dashboard импортируется. 
+
+`Find and import dashboards for common applications at grafana.com/dashboards: 1860`
+
+![image](https://github.com/user-attachments/assets/c6c4684f-bb09-45e3-a6b3-438be377aa55)
+
+В конце `Select Prometheus` и `Import`.
 
 
 
