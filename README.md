@@ -150,7 +150,7 @@
 
 
 
-
+sudo mv prometeus.yaml /mnt/common_volume/swarm/grafana/config/
 
 
 
