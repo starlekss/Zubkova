@@ -148,7 +148,7 @@
 ![image](https://github.com/user-attachments/assets/eaa94ac6-54c7-48ea-be47-7ca3079f148f)
 
 
-cp /home/savinova/Docker-Linux-8.2.25/folder/* /home/savinova/grafana_stack_for_docker копирование всех файлов из /home/savinova/Docker-Linux-8.2.25/folder/(prometeus.yaml, docker-compose.yaml(изменяем основной файл в файл с Github)) в /home/savinova/grafana_stack_for_docker
+
 
 
 
