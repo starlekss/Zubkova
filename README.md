@@ -185,5 +185,10 @@ Authentication: `Basic authentication`
 
 # VictoriaMetrics
 
+![image](https://github.com/user-attachments/assets/dc1f771c-c49e-4cb4-8365-7ae73e3f2bb8)
+
+![image](https://github.com/user-attachments/assets/700682e7-c47d-4df2-8a0e-3c6ad9197308)
+
+![image](https://github.com/user-attachments/assets/a98be8b0-3697-49be-8787-d74194c9619a)
 
 
