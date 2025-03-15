@@ -181,6 +181,10 @@ Authentication: `Basic authentication`
 
 В конце `Select Prometheus` и `Import`.
 
+![image](https://github.com/user-attachments/assets/2b1634b5-af15-42d6-9bbc-d5316ad96304)
+
+
+
 
 
 
