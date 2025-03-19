@@ -189,9 +189,17 @@ Authentication: `Basic authentication`
 
 ![image](https://github.com/user-attachments/assets/dc1f771c-c49e-4cb4-8365-7ae73e3f2bb8)
 
+26. `echo -e "# TYPE light_metric1 gauge\nlight_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus`
+
+Эта команда отправляет метрику Prometheus в систему, работающую по адресу http://localhost:8428
 
 ![image](https://github.com/user-attachments/assets/700682e7-c47d-4df2-8a0e-3c6ad9197308)
 
+Далее был осуществлен переход на http://localhost:8428 - vmui
+
 ![image](https://github.com/user-attachments/assets/a98be8b0-3697-49be-8787-d74194c9619a)
 
+После, перейдя обратно в Grafana, были добавлены данные victoriametrics 
+
+![image](https://github.com/user-attachments/assets/d104ed43-8dba-4fd2-8bd9-49e6247c0826)
 
